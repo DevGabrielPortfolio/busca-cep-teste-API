@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.container-header {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffc107; /* Golden text */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center items horizontally within the header */
+    align-items: center; /* Center items vertically within the header */
+    width: 100vw; /* Occupy full viewport width */
+    position: fixed; /* Stick to the top of the viewport */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.container-logo {
+    margin-right: 20px; /* Space between logo and text */
+}
+
+.material-symbols-outlined {
+    font-size: 60px; /* Large logo size */
+}
+
+.container-texto h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 400; /* Adjust font weight as needed */
+}
+
+.main{
+    margin-top: 200px;
+}
